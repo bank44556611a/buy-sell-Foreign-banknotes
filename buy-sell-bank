@@ -63,7 +63,7 @@ public class Main {
     {    
        for (int i = 0; i < 1000; i++) {
           System.out.println("*******Eur*******");
-        System.out.println("ต้องการซื้อหรอขาย ซื้อกด 1 ขายกด 2");
+        System.out.println("ต้องการซื้อหรือขาย ซื้อกด 1 ขายกด 2");
        int H = Keyboard1.nextInt();
        System.out.println("_________________________");
        System.out.println("  ");
@@ -139,7 +139,7 @@ public class Main {
     {   
        System.out.println("*******KRW*******");
       for (int i = 0; i < 1000; i++) { 
-        System.out.println("ต้องการซื้อหรอขาย ซื้อกด 1 ขายกด 2");
+        System.out.println("ต้องการซื้อหรือขาย ซื้อกด 1 ขายกด 2");
        int H = Keyboard1.nextInt();
        System.out.println("_________________________");
        System.out.println("  ");
