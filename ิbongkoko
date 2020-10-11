@@ -1,0 +1,236 @@
+import java.util.Scanner;
+
+public class Main {
+  private static int Choice;
+
+  public static void main(String[] args) {
+    for (int ia = 0; ia < 1000; ia++) {
+    String GG = "*********รายการซื้อ/ขายธนบัตรต่างประเทศ********";
+    String AA ="1 :  USD";
+    String BB ="2 :  Eur";
+    String CC ="3 :  jpy";
+    String DD ="4 :  KRW";
+    String XX ="5 :  CNY";
+    System.out.println(GG);
+    System.out.println(AA);
+    System.out.println(BB);
+    System.out.println(CC);
+    System.out.println(DD);
+    System.out.println(XX);
+     System.out.println("**************************");
+     Scanner Keyboard1 = new Scanner(System.in);
+        System.out.print("เลือกรายการที่ต้องการ :");
+      char Choice = Keyboard1.next().charAt(0);
+      System.out.println("**************************");
+      switch (Choice){ 
+    case '1': 
+    { 
+      System.out.println("ต้องการซื้อหรอขาย ซื้อกด 1 ขายกด 2");
+       int H = Keyboard1.nextInt();
+       System.out.println("_____________________________");
+       System.out.println("  ");
+       for (int i = 0; i < 1000; i++) {
+       if(H==1){
+         System.out.println("จำด้วยนวนเงินที่จะซื้อ(USD)");
+         double USD = Keyboard1.nextDouble();
+         System.out.println(USD+" "+"บาท"+" "+">"+" "+USD*0.032+" "+"USD");
+        } else if (H==2) {
+           System.out.println("จำด้วยนวนเงินที่จะขาย(USD)");
+           double USD1 = Keyboard1.nextDouble();
+               System.out.println(USD1+" "+"USD"+" "+">"+" "+USD1*30.98+" "+"บาท");
+               }
+          else {
+           System.out.println("ทำรายการไม่ถูกต้อง");
+          break;
+          }
+               
+                 System.out.println("__________________________");
+                System.out.println("  ");
+                System.out.print("ต้อการการทำงานต่อหรอไม 1ใช่/2ไม่ :  ");
+                int yn = Keyboard1.nextInt(); 
+                System.out.println
+                ("__________________________");
+                System.out.println("  ");
+
+                 if(yn==1){ 
+                 }else if (yn==2) {
+                   System.out.println("กลับไปหน้าแรก");
+                   break;
+                 } else {
+               System.out.println("ทำรายการไม่ถูกต้อง");
+                break;
+               }    
+       }
+           break;
+    }
+    case '2' :
+    {    
+        System.out.println("ต้องการซื้อหรอขาย ซื้อกด 1 ขายกด 2");
+       int H = Keyboard1.nextInt();
+       System.out.println("_____________________________");
+       System.out.println("  ");
+       for (int i = 0; i < 1000; i++) {
+       if(H==1){
+         System.out.println("จำด้วยนวนเงินที่จะซื้อ(Eur)");
+         double Eur = Keyboard1.nextDouble();
+         System.out.println(Eur+" "+"บาท"+" "+">"+" "+Eur*0.027+" "+"Eur");
+        } else if (H==2) {
+           System.out.println("จำด้วยนวนเงินที่จะขาย(Eur)");
+           double Eur1 = Keyboard1.nextDouble();
+               System.out.println(Eur1+" "+"Eur"+" "+">"+" "+Eur1*36.66+" "+"บาท");
+               }else {
+               System.out.println("ทำรายการไม่ถูกต้อง");
+               break;
+          }
+                 System.out.println("__________________________");
+                System.out.println("  ");
+                System.out.print("ต้อการการทำงานต่อหรอไม 1ใช่/2ไม่ :  ");
+                int yn = Keyboard1.nextInt(); 
+                System.out.println
+                ("__________________________");
+                System.out.println("  ");
+
+                 if(yn==1){ 
+                 }else if (yn==2) {
+                   System.out.println("กลับไปหน้าแรก");
+                   break;
+                 } else {
+               System.out.println("ทำรายการไม่ถูกต้อง");
+                break;
+               }    
+       }
+           break;
+    }
+     case '3' :
+    {    
+        System.out.println("ต้องการซื้อหรอขาย ซื้อกด 1 ขายกด 2");
+       int H = Keyboard1.nextInt();
+       System.out.println("_____________________________");
+       System.out.println("  ");
+       for (int i = 0; i < 1000; i++) {
+       if(H==1){
+         System.out.println("จำด้วยนวนเงินที่จะซื้อ(jpy)");
+         double jpy = Keyboard1.nextDouble();
+         System.out.println(jpy+" "+"บาท"+" "+">"+" "+jpy*3.41+" "+"jpy");
+        } else if (H==2) {
+           System.out.println("จำด้วยนวนเงินที่จะขาย(jpy)");
+           double jpy1 = Keyboard1.nextDouble();
+               System.out.println(jpy1+" "+"jpy"+" "+">"+" "+jpy1*0.29+" "+"บาท");
+               }else {
+               System.out.println("ทำรายการไม่ถูกต้อง");
+               break;
+          }
+                 System.out.println("__________________________");
+                System.out.println("  ");
+                System.out.print("ต้อการการทำงานต่อหรอไม 1ใช่/2ไม่ :  ");
+                int yn = Keyboard1.nextInt(); 
+                System.out.println
+                ("__________________________");
+                System.out.println("  ");
+
+                 if(yn==1){ 
+                 }else if (yn==2) {
+                   System.out.println("กลับไปหน้าแรก");
+                   break;
+                 } else {
+               System.out.println("ทำรายการไม่ถูกต้อง");
+                break;
+               }    
+       }
+           break;
+    }
+     case '4' :
+    {    
+        System.out.println("ต้องการซื้อหรอขาย ซื้อกด 1 ขายกด 2");
+       int H = Keyboard1.nextInt();
+       System.out.println("_____________________________");
+       System.out.println("  ");
+       for (int i = 0; i < 1000; i++) {
+       if(H==1){
+         System.out.println("จำด้วยนวนเงินที่จะซื้อ(KRW)");
+         double KRW = Keyboard1.nextDouble();
+         System.out.println(KRW+" "+"บาท"+" "+">"+" "+KRW*36.90+" "+"KRW");
+        } else if (H==2){
+           System.out.println("จำด้วยนวนเงินที่จะขาย(KRW)");
+           double KRW1 = Keyboard1.nextDouble();
+               System.out.println(KRW1+" "+"KRW"+" "+">"+" "+KRW1*0.027+" "+"บาท");
+               }
+          else {
+               System.out.println("ทำรายการไม่ถูกต้อง");
+               break;
+          }
+ 
+                System.out.println("__________________________");
+                System.out.println("  ");
+                System.out.print("ต้อการการทำงานต่อหรอไม 1ใช่/2ไม่ :  ");
+                int yn = Keyboard1.nextInt(); 
+                System.out.println
+                ("__________________________");
+                System.out.println("  ");
+
+                 if(yn==1){ 
+                 }else if (yn==2) {
+                  System.out.println("กลับไปหน้าแรก");
+                   break;
+                 } else {
+               System.out.println("ทำรายการไม่ถูกต้อง");
+                break;
+               }    
+       }
+           break;
+    }
+    
+    case '5' :
+        System.out.println("ต้องการซื้อหรอขาย ซื้อกด 1 ขายกด 2");
+       int H = Keyboard1.nextInt();
+       System.out.println("_____________________________");
+       System.out.println("  ");
+       for (int i = 0; i < 1000; i++) {
+       if(H==1){
+         System.out.println("จำด้วยนวนเงินที่จะซื้อ(CNY)");
+         double CNY = Keyboard1.nextDouble();
+         System.out.println(CNY+" "+"บาท"+" "+">"+" "+CNY*0.22+" "+"CNY");
+        } else if (H==2){
+           System.out.println("จำด้วยนวนเงินที่จะขาย(CNY)");
+           double CNY1 = Keyboard1.nextDouble();
+               System.out.println(CNY1+" "+"CNY"+" "+">"+" "+CNY1*4.63+" "+"บาท");
+               }
+          else {
+               System.out.println("ทำรายการไม่ถูกต้อง");
+               break;
+          }
+ 
+                System.out.println("__________________________");
+                System.out.println("  ");
+                System.out.print("ต้อการการทำงานต่อหรอไม 1ใช่/2ไม่ :  ");
+                int yn = Keyboard1.nextInt(); 
+                System.out.println
+                ("__________________________");
+                System.out.println("  ");
+
+                 if(yn==1){ 
+                 }else if (yn==2) {
+                   System.out.println("กลับไปหน้าแรก");
+                   break;
+                 } else {
+               System.out.println("ทำรายการไม่ถูกต้อง");
+                break;
+               }    
+       }
+           break;
+            default :
+        System.out.println("ทำรายการไม่ถูกต้อง");
+    }
+    System.out.println("********************");
+      System.out.println("ต้อการการกลับไปหน้าแรกใช่หรอไม่ 1ใช่/2ไม่ :  ");
+          int yn = Keyboard1.nextInt();
+      if(yn==1){ 
+      }else if (yn==2) {
+        System.out.println("----------------------");
+      System.out.println("******Thank you*******");
+      break;
+    }
+    }
+    }
+   }
+
