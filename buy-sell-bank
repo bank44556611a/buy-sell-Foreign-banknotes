@@ -19,11 +19,11 @@ public class Main {
      Scanner Keyboard1 = new Scanner(System.in);
         System.out.print("เลือกรายการที่ต้องการ :");
       char Choice = Keyboard1.next().charAt(0);
-      System.out.println("**********************");
       switch (Choice){ 
     case '1': 
     { 
       for (int ias = 0; ias < 1000; ias++) {
+        System.out.println("*******USD*******");
       System.out.println("ต้องการซื้อหรอขาย ซื้อกด 1 ขายกด 2");
        int H = Keyboard1.nextInt();
        System.out.println("_________________________");
@@ -62,6 +62,7 @@ public class Main {
     case '2' :
     {    
        for (int i = 0; i < 1000; i++) {
+          System.out.println("*******Eur*******");
         System.out.println("ต้องการซื้อหรอขาย ซื้อกด 1 ขายกด 2");
        int H = Keyboard1.nextInt();
        System.out.println("_________________________");
@@ -99,6 +100,7 @@ public class Main {
      case '3' :
     {   
        for (int i = 0; i < 1000; i++) {
+          System.out.println("*******jpy*******");
         System.out.println("ต้องการซื้อหรอขาย ซื้อกด 1 ขายกด 2");
        int H = Keyboard1.nextInt();
        System.out.println("_________________________");
@@ -135,6 +137,7 @@ public class Main {
     }
      case '4' :
     {   
+       System.out.println("*******KRW*******");
       for (int i = 0; i < 1000; i++) { 
         System.out.println("ต้องการซื้อหรอขาย ซื้อกด 1 ขายกด 2");
        int H = Keyboard1.nextInt();
@@ -172,6 +175,7 @@ public class Main {
            break;
     }
     case '5' :
+     System.out.println("*******CNY*******");
      for (int i = 0; i < 1000; i++) {
         System.out.println("ต้องการซื้อหรอขาย ซื้อกด 1 ขายกด 2");
        int H = Keyboard1.nextInt();
